@@ -1,0 +1,138 @@
+@media only screen and (min-width: 768px){
+.section.four [class*=col]:nth-child(1) .bg-block {
+    height: 100%;
+    position: absolute;
+    right: 0 !important;
+    width: 50vw;
+    left: inherit;
+}
+}
+
+.section.four [class*=col]:nth-child(1) .bg-block {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 100vw;
+    /* background-color: #05c597; */
+    background: url('https://preview.colorlib.com/theme/itsolution/images/about.jpg.webp');
+    background-size: cover;
+
+   
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(to bottom right, #002f4b, #2c2c2b);
+        opacity: .6; 
+      }
+    
+
+
+}
+.contents p{
+    color: #ffffff;
+}
+.section.four .content-block {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.section.four [class*=col] {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.section.four [class*=col] {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+@media only screen and (min-width: 768px){
+.section.four [class*=col] {
+    min-height: 100vh;
+}
+}
+
+@media only screen and (min-width: 992px){
+.section.four [class*=col]:nth-child(2) .content-block {
+    padding-left: 5rem;
+    padding-right: 0rem;
+}
+}
+
+.section.four .product-list-block .product-list-wrapper .block-wrapper {
+    /* display: -ms-grid; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.btn-three {
+    padding: 0.7rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #555;
+    display: inline-block;
+}
+
+.product-list-wrapper h2{
+    color: #116299;
+}
+
+.contents h2{
+    color: #fff;
+   font-size: 30px;
+   font-weight: bold; 
+   width: 100%;
+   height: 100%;
+   z-index: 10;
+}
+
+
+.section.four .product-list-block .product-list-wrapper .block-wrapper .blocks li::marker {
+    content: "";
+    font-family: FontAwesome;
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    color: #555;
+}
+.section.four .product-list-block .product-list-wrapper ul li {
+    padding-left: 10px;
+    line-height: 1.7em;
+}
+ 
+@media only screen and (min-width: 768px){
+.section.four {
+    min-height: 100vh;
+}
+}
+
+.btn-wrapper {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
