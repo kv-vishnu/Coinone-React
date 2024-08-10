@@ -142,7 +142,13 @@ function Services() {
                         <div className="slider-container">
                             <Slider arrows={false} {...settings}>
                             <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/ERPNext_accounts_home_page.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/crm.png')} alt="" />
+                                      </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique1.png')} alt="" />
+                                      </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
                                       </div>
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/Oracle-ERP-Dashboard-Screenshot.png')} alt="" />
@@ -168,6 +174,7 @@ function Services() {
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/erp1.webp')} alt="" />
                                       </div>
+                                     
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/erp2.png')} alt="" />
                                       </div>
@@ -190,6 +197,7 @@ function Services() {
                                 <li>Web Development</li>
                                 <li>Web Hosting</li>
                                 <li>Content Management Services(CMS)</li>
+                               
                               </p> 
                           </div>
                           <div className="col-md-12 mt-4 mb-4">
@@ -300,12 +308,29 @@ function Services() {
                     <div className="col-md-12 mt-4 mb-4">
                         <div className="slider-container">
                             <Slider arrows={false} {...settings}>
-                                <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/teresa.png')} alt="" />
+                            <div>
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
                                 </div>
+
                                 <div>
                                     <img className='rounded img-fluid' src={require('../src/images/boutique1.png')} alt="" />
                                 </div>
+                                <div>
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique2.png')} alt="" />
+                                </div>
+                                <div>
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique3.png')} alt="" />
+                                </div>
+                                <div>
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique4.png')} alt="" />
+                                </div>
+                                <div>
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique5.png')} alt="" />
+                                </div>
+                                <div>
+                                    <img className='rounded img-fluid' src={require('../src/images/teresa.png')} alt="" />
+                                </div>
+                              
                             </Slider>
                         </div>
                     </div>

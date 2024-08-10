@@ -34,7 +34,9 @@ function App() {
   const filteredServices = selectedCategory === '1'
   ? datas.services
   : datas.services.filter(service => service.category_id === selectedCategory);
+  const limitedServicesCategory = datas.servicescategory.slice(0, 4);
 
+  
 
 useEffect(() => {
   window.scrollTo(0, 0);
@@ -44,7 +46,8 @@ useEffect(() => {
       console.log(res.data);
     })
 }, [])
-
+console.log('Selected Category:', selectedCategory);
+console.log('Filtered Services:', filteredServices);
   return (
     <body>
     {/* Start Header */}
@@ -74,8 +77,7 @@ useEffect(() => {
                         <a href='#services' type="button" style={{ fontSize: '14px' }} class="btn btn-outline-light btn-lg mx-2">Our Services<i className="bi bi-arrow-right mx-1"></i></a>
 
 
-                  <Link to={'/contact'}>  <button type="button" style={{ fontSize: '14px' }} class="btn btn-dark btn-lg ">Get in touch<i className="bi bi-envelope mx-1"></i></button></Link>    
-
+                <a href='#works' type="button" style={{ fontSize: '14px' }} class="btn btn-dark btn-lg ">Get in touch<i className="bi bi-envelope mx-1"></i></a>
 
 
                       </div>
@@ -127,7 +129,7 @@ Coinone always make sure to deliver the best quality products keeping the custom
                 </div>
               </div>
               <div class="col-md-12 col-lg-3  bubbles_anmtn_bg">
-                <img src={'https://coinoneglobal.com/coinone/static/media/2023-10-26.3388e941412e4732e8a2.jpg'} class="img-fluid rounded" alt="best web designers in kerala
+                <img src={'https://coinoneglobal.com/static/media/2023-10-26.3388e941412e4732e8a2.jpg'} class="img-fluid rounded" alt="best web designers in kerala
                   "/>
 
               </div>
@@ -341,7 +343,7 @@ skewUpRef.current.push(el);
 
                   {datas.clients.map((items, index) => (
                     <div className='client-slide logo-wrapper'>
-                      <img src={`/coinone/${items.image}`} alt="" />
+                      <img src={`${items.image}`} alt="" />
                     </div>
                   ))}
 
@@ -419,7 +421,7 @@ skewUpRef.current.push(el);
                     {filteredServices.map(service => (
                       <div key={service.id} className="col-lg-6 col-md-6 portfolio-item">
                         <div className="portfolio-wrap">
-                          <img src={`/coinone/${service.image}`} className="img-fluid" alt={service.name} />
+                          <img src={`${service.image}`} className="img-fluid" alt={service.name} />
                           <div className="portfolio-info">
                             <h4>{service.name}</h4>
                             <div className="portfolio-links">

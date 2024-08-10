@@ -18,7 +18,7 @@ const setActiveTab= '';
 
 { lastSegment != 'contact' && (
         <section>
-        <div class="container aos-init aos-animate" >
+        <div class="container " >
         <div class="connect-box">
         <div class="section-title"><h2>Got any questions or doubts ? </h2></div>
         <div className='row p-5' style={{ background: '#e9ecef', borderRadius: '10px' }}>
@@ -49,7 +49,7 @@ const setActiveTab= '';
   
                 <div class="col-lg-3 col-md-6" >
                   <div class="contact-about">
-                    <h3><a href="index.html"><img src="/coinone/assets/img/header-logo.svg" /></a></h3>
+                    <h3><a href="index.html"><img src="/assets/img/header-logo.svg" /></a></h3>
                     <p>
   
   

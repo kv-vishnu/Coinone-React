@@ -110,11 +110,9 @@ function Boutique() {
                                     <img className='rounded img-fluid' src={require('../src/images/boutique inventory system.png')} alt="" />
                                 </div>
                                 <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/boutique store management system.png')} alt="" />
-                                </div>
-                                <div>
                                     <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
                                 </div>
+                              
 
 
 

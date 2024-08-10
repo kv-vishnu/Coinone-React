@@ -102,6 +102,7 @@ function Web() {
                                 <li>Web Development</li>
                                 <li>Web Hosting</li>
                                 <li>Content Management Services(CMS)</li>
+                             
                               
                               </p>
                               
@@ -111,6 +112,9 @@ function Web() {
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
 
+                                      <div>
+                                          <img className='rounded img-fluid' src={'https://luluthattukada.com/coinone/assets/img/portfolio/netlife.png'} alt="" />
+                                      </div>
                                       <div>
                                           <img className='rounded img-fluid' src={'https://luluthattukada.com/coinone/assets/img/portfolio/netlife.png'} alt="" />
                                       </div>

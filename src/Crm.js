@@ -4,6 +4,7 @@ import Slider from 'react-slick';
 import Header from './Header';
 import Footer from './Footer';
 import $ from 'jquery'
+import './Style.css'
 function Crm() {
     var settings = {
         dots: true,
@@ -105,10 +106,10 @@ function Crm() {
                     </div>
                     <div className="col-md-6">
                         <div className="slider-container">
-                            <Slider arrows={false} {...settings}>
+                            <Slider  {...settings}>
 
                             <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/ERPNext_accounts_home_page.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/retail.png')} alt="" />
                                       </div>
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/Oracle-ERP-Dashboard-Screenshot.png')} alt="" />

@@ -537,7 +537,7 @@ skewUpRef.current.push(el);
 
                   {datas.clients.map((items, index) => (
                     <div className='client-slide logo-wrapper'>
-                      <img src={`/coinone/${items.image}`} alt="" />
+                      <img src={`${items.image}`} alt="" />
                     </div>
                   ))}
 

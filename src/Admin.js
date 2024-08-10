@@ -30,7 +30,7 @@ function Admin() {
         {getusername && getpassword ? <Dashboard/>:
         <div class="container border  p-5" style={{marginTop:'165px'}}>
             <div style={{textAlign:'center'}}>
-            <img class="  mb-4"  src='https://coinoneglobal.com/wp-content/themes/coinoneglobal-child/assets/images/header-logo.svg'></img>
+            <img class="  mb-4"  src='/assets/img/header-logo.svg'></img>
             </div>
        {/* { */}
         

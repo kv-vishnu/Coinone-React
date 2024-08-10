@@ -122,13 +122,13 @@ useEffect(() => {
                     {filteredServices.map(service => (
                       <div key={service.id} className="col-lg-6 col-md-6 portfolio-item">
                         <div className="portfolio-wrap">
-                          <img src={`/coinone/${service.image}`} className="img-fluid" alt={service.name} />
+                          <img src={`${service.image}`} className="img-fluid" alt={service.name} />
                           <div className="portfolio-info">
                             <h4>{service.name}</h4>
                             <div className="portfolio-links">
                             
 
-<a href={`/coinone/${service.image}`} data-gallery="portfolioGallery" className="portfolio-lightbox" title={service.name}>
+<a href={`${service.image}`} data-gallery="portfolioGallery" className="portfolio-lightbox" title={service.name}>
                                 <i className="bx bx-plus"></i>
                               </a>
                               <a href={service.link} target='_blank' title="More Details">

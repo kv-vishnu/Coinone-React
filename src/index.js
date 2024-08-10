@@ -23,7 +23,7 @@ import Admin from './Admin';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router basename='/coinone'>
+    <Router >
       <Routes>
       <Route path='/' element={<App/>} />
       <Route path='/erp' element={<Erp/>}/>

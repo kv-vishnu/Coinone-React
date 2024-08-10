@@ -110,7 +110,7 @@ function Header() {
           <div class="container container-xl d-flex align-items-center justify-content-between">
 
               <div class="logo">
-              <Link to={'/'}><h1><a href="#"><img src="/coinone/assets/img/header-logo.svg" /></a></h1></Link>  
+              <Link to={'/'}><h1><a href="#"><img src="/assets/img/header-logo.svg" /></a></h1></Link>  
               </div>
 
 
@@ -143,7 +143,7 @@ function Header() {
 
     <Link to={'/services/crm'}> <li><a class="nav-link scrollto" onClick={() => setIsMobile(false)}>Services</a></li></Link>
                        <Link to={'/works'}> <li><a class="nav-link scrollto" onClick={() => setIsMobile(false)}>Works</a></li></Link> 
-                      <li><Link to={'/contact'} style={{display:'contents'}}><a class="nav-link scrollto" href="#contact" onClick={() => setIsMobile(false)}>Contactus</a></Link></li>
+                      <li><Link to={'/contact'} style={{display:'contents'}}><a class="nav-link scrollto" href="#contact" onClick={() => setIsMobile(false)}>Contact us</a></Link></li>
                       <li className='ml-3'>
                          <Link to={'/contact'}> <button type="button" class="btn btn-outline-light btn-3d " data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-phone mx-2"></i>Get In Touch</button></Link>
                       </li>
