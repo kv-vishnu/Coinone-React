@@ -10,8 +10,9 @@ import './App.css'
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import Footer from './Footer';
+import { Button } from 'react-bootstrap';
 function App() {
-  const id = 123; 
+   
   const [selectedCategory, setSelectedCategory] = useState('1'); // All 
 
   const [datas, setDatas] = useState({
@@ -31,12 +32,11 @@ function App() {
     setSelectedCategory(categoryId);
   };
 
-  const filteredServices = selectedCategory === '1'
-  ? datas.services
-  : datas.services.filter(service => service.category_id === selectedCategory);
-  const limitedServicesCategory = datas.servicescategory.slice(0, 4);
+  // const filteredServices = selectedCategory === '1'
+  // ? datas.services
+  // : datas.services.filter(service => service.category_id === selectedCategory);
 
-  
+  const filteredServices = selectedCategory === '1' ? datas.services.slice(0,4) : datas. services.filter(item => item.category_id === selectedCategory);
 
 useEffect(() => {
   window.scrollTo(0, 0);
@@ -77,7 +77,7 @@ console.log('Filtered Services:', filteredServices);
                         <a href='#services' type="button" style={{ fontSize: '14px' }} class="btn btn-outline-light btn-lg mx-2">Our Services<i className="bi bi-arrow-right mx-1"></i></a>
 
 
-                <a href='#works' type="button" style={{ fontSize: '14px' }} class="btn btn-dark btn-lg ">Get in touch<i className="bi bi-envelope mx-1"></i></a>
+                <a href='#works' type="button" style={{ fontSize: '14px' }} class="btn btn-dark btn-lg ">Our Works<i className="bi bi-arrow-right mx-1"></i></a>
 
 
                       </div>
@@ -414,6 +414,8 @@ skewUpRef.current.push(el);
 
               </div>
 
+              
+
               <div className="col-md-9">
                 <div className="tab-pane fade show active shadow rounded  p-1" role="tabpanel">
                   <h4 className="text-center mb-4  ">{selectedCategory === 'All' ? 'All Services' : datas.servicescategory.find(cat => cat.id === selectedCategory)?.none}</h4>
@@ -427,18 +429,23 @@ skewUpRef.current.push(el);
                             <div className="portfolio-links">
                             
 
-<a href={`/coinone/${service.image}`} data-gallery="portfolioGallery" className="portfolio-lightbox" title={service.name}>
+{/* <a href={`${service.image}`} data-gallery="portfolioGallery" className="portfolio-lightbox" title={service.name}>
                                 <i className="bx bx-plus"></i>
-                              </a>
+                              </a> */}
                               <a href={service.link} target='_blank' title="More Details">
                                 <i className="bx bx-link"></i>
                               </a>
                             </div>
+
                           </div>
                         </div>
                       </div>
                     ))}
                   </div>
+                  <div class="text-center mt-4">
+  <Link to={'/works'}><button type="button" class="btn btn-outline-light">View All Works</button></Link>
+</div>
+                  
                 </div>
               </div>
             </div>

@@ -151,6 +151,9 @@ function Services() {
                                           <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
                                       </div>
                                       <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique2.png')} alt="" />
+                                      </div>
+                                      <div>
                                           <img className='rounded img-fluid' src={require('../src/images/Oracle-ERP-Dashboard-Screenshot.png')} alt="" />
                                       </div>
                                       
@@ -171,6 +174,16 @@ function Services() {
                           <div className="col-md-12 mt-4 mb-4">
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
+
+                                  <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique4.png')} alt="" />
+                                      </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique3.png')} alt="" />
+                                      </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
+                                      </div>
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/erp1.webp')} alt="" />
                                       </div>
@@ -212,6 +225,9 @@ function Services() {
                                       <div>
                                           <img className='rounded img-fluid' src={'https://luluthattukada.com/coinone/assets/img/portfolio/syswares.png'} alt="" />
                                       </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/flowares.png')} alt="" />
+                                      </div>
                                   </Slider>
                               </div>
                           </div>
@@ -232,6 +248,9 @@ function Services() {
                                   <Slider arrows={false} {...settings}>
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/mobile1.png')} alt="" />
+                                      </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/thodupuzha.png')} alt="" />
                                       </div>
                                       <div>
                                       <img className='rounded img-fluid' src={require('../src/images/mobile2.png')} alt="" />
@@ -261,9 +280,7 @@ function Services() {
                             <div>
                                           <img className='rounded img-fluid' src={require('../src/images/res1.png')} alt="" />
                                       </div>
-                                      <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/restaurant-billing.png')} alt="" />
-                                      </div>
+                                     
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/bar-pos.png')} alt="" />
                                       </div>
@@ -277,15 +294,21 @@ function Services() {
             <Tab.Pane eventKey="temple">
               {/* Temple */}
               <div className="row">
-                          <div className="col-md-6 erp">
+                          <div className="col-md-12 erp">
                               <h2 style={{color:'#000'}} >TEMPLE MANAGEMENT</h2>
                               <p >Online Temple  Management Software is a web-based application that automates the charitable trusts that run and maintain temple organizations. The challenges addressed include integrating modules to manage donations, devotees’ database, and festivals. The software is built to be an easy-to-use interface and the navigation is simple. We have also integrated modules to generate relevant reports.
                              
                               </p> 
                           </div>
-                          <div className="col-md-6">
+                          <div className="col-md-12">
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
+                                  <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique5.png')} alt="" />
+                                      </div>
+                                      <div>
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique4.png')} alt="" />
+                                      </div>
                                       <div>
                                           <img className='rounded img-fluid' src={require('../src/images/temple1.webp')} alt="" />
                                       </div>
@@ -345,22 +368,22 @@ function Services() {
                         <p >A retail management system (RMS) is a platform that combines several useful tools to aid in running a retail store, such as inventory management and point of sale (POS). As a retail business, you can't afford to lose stock or write-off unsold goods. A retail management system can take the pain away
                         </p>   
                     </div>
-                    {/* <div className="col-md-6">
+                    <div className="col-md-12">
                         <div className="slider-container">
                             <Slider arrows={false} {...settings}>
                                 <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/retail.png')} alt="" />
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique.png')} alt="" />
                                 </div>
                                 <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/retail1.png')} alt="" />
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique1.png')} alt="" />
                                 </div>
                                 <div>
-                                    <img className='rounded img-fluid' src={require('../src/images/retail2.png')} alt="" />
+                                    <img className='rounded img-fluid' src={require('../src/images/boutique3.png')} alt="" />
                                 </div>
                             </Slider>
                         </div>
 
-                    </div> */}
+                    </div>
                 </div>
                 {/* Retail */}
             </Tab.Pane>
@@ -375,22 +398,20 @@ function Services() {
                              
                               </p>            
                           </div>
-                          {/* <div className="col-md-6">
+                          <div className="col-md-12">
                               <div className="slider-container">
                                   <Slider arrows={false} {...settings}>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/biiling.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique5.png')} alt="" />
                                       </div>
                                       <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/billing1.png')} alt="" />
+                                          <img className='rounded img-fluid' src={require('../src/images/boutique4.png')} alt="" />
                                       </div>
-                                      <div>
-                                          <img className='rounded img-fluid' src={require('../src/images/Billing2.png')} alt="" />
-                                      </div>
+                                      
                                   </Slider>
                               </div>
 
-                          </div> */}
+                          </div>
                       </div>
                       {/* Billing */}
             </Tab.Pane>

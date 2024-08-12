@@ -19,45 +19,79 @@ function Admin() {
         
     }
   return (
+
+
     
-    
+    <body>
     <div class="row">
-       
-    
-    {/* <!-- first coloumn --> */}
-    <div class="col-lg-12">
-        {/* <!-- middle --> */}
-        {getusername && getpassword ? <Dashboard/>:
-        <div class="container border  p-5" style={{marginTop:'165px'}}>
+        <div class="col-4"></div>
+        {/* <!-- first coloumn --> */}
+        <div className={getusername && getpassword ? "col-lg-12" : "col-lg-4"}>
+            {/* <!-- middle --> */}
+            {getusername && getpassword ? <Dashboard/>:
+            <div class="container border mt-5 p-5">
             <div style={{textAlign:'center'}}>
             <img class="  mb-4"  src='/assets/img/header-logo.svg'></img>
             </div>
-       {/* { */}
+                <form action="" onSubmit={handleformsubmit}>
+                    <div class="mb-3">
+                        <label class="form-label" for="">username</label>
+                        <input class="form-control" type="text" ref={username}/>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="">password</label>
+                        <input class="form-control" type="password" ref={password}/>
+                    </div>
+                    <div className='text-center'><button class="btn btn-primary">login</button></div>
+                  
+                </form>
+            </div>
+            }
+        </div>
+
+
         
-            <form action="" onSubmit={handleformsubmit}>
+    </div>
+
+</body>
+    
+//     <div class="row">
+       
+    
+//     {/* <!-- first coloumn --> */}
+//     <div class="col-lg-12">
+//         {/* <!-- middle --> */}
+//         {getusername && getpassword ? <Dashboard/>:
+//         <div class="container border  p-5" style={{marginTop:'165px'}}>
+//             <div style={{textAlign:'center'}}>
+//             <img class="  mb-4"  src='/assets/img/header-logo.svg'></img>
+//             </div>
+//        {/* { */}
+        
+//             <form action="" onSubmit={handleformsubmit}>
              
                
                 
-                <div class="mb-3">
-                              <label class="form-label" for="">username</label>
-                              <input class="form-control" type="text" ref={username} />
-                          </div><div class="mb-3">
-                                  <label class="form-label" for="">Password</label>
-                                  <input class="form-control" type="password" ref={password} />
-                              </div><div style={{ textAlign: 'center' }}>
-                                  <button class="btn btn-primary">login</button>
-                              </div>
+//                 <div class="mb-3">
+//                               <label class="form-label" for="">username</label>
+//                               <input class="form-control" type="text" ref={username} />
+//                           </div><div class="mb-3">
+//                                   <label class="form-label" for="">Password</label>
+//                                   <input class="form-control" type="password" ref={password} />
+//                               </div><div style={{ textAlign: 'center' }}>
+//                                   <button class="btn btn-primary">login</button>
+//                               </div>
                             
 
-            </form>
-{/* } */}
-        </div>
-}
-    </div>
+//             </form>
+// {/* } */}
+//         </div>
+// }
+//     </div>
 
 
     
-</div>
+// </div>
 
 
   )

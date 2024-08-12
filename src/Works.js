@@ -128,9 +128,9 @@ useEffect(() => {
                             <div className="portfolio-links">
                             
 
-<a href={`${service.image}`} data-gallery="portfolioGallery" className="portfolio-lightbox" title={service.name}>
+{/* <a href={`${service.image}`} data-gallery="portfolioGallery" className="portfolio-lightbox" title={service.name}>
                                 <i className="bx bx-plus"></i>
-                              </a>
+                              </a> */}
                               <a href={service.link} target='_blank' title="More Details">
                                 <i className="bx bx-link"></i>
                               </a>

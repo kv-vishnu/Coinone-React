@@ -55,15 +55,15 @@ const setActiveTab= '';
   
                     </p>
                     <div class="social-links">
-                      <a href="https://x.com/coinoneglobal" class="twitter"><i class="bi bi-twitter"></i></a>
-                      <a href="https://www.facebook.com/coinoneglobal/" class="facebook"><i class="bi bi-facebook"></i></a>
-                      <a href="#" class="instagram"><i class="bi bi-whatsapp"></i></a>
-                      <a href="https://www.linkedin.com/company/coinoneglobal-solutionspvtltd/about/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                      <a href="https://x.com/coinoneglobal" target='_blank' class="twitter"><i class="bi bi-twitter"></i></a>
+                      <a href="https://www.facebook.com/coinoneglobal/" target='_blank'  class="facebook"><i class="bi bi-facebook"></i></a>
+                    
+                      <a href="https://www.linkedin.com/company/coinoneglobal-solutionspvtltd/about/" class="linkedin" target='_blank' ><i class="bi bi-linkedin"></i></a>
                     </div>
                   </div>
                 </div>
   
-                <div class="col-lg-6 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
                   <div class="info">
                     <h3 style={{ fontWeight: '700', fontSize: '15px', color: '#fff' }}>Address</h3>
                     <div className='p-0'>
@@ -90,7 +90,7 @@ const setActiveTab= '';
   
   
   
-<div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+<div class="col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
     <h3 style={{ fontWeight: '700', fontSize: '15px', color: '#fff' }}> Services </h3>
 <ul className='p-0 foot'>
     <Link to={'/services/crm'} onClick={()=> changeServicesTab('crm') } style={{display:'contents'}}> <li class="foot"><a className='foot' >CRM Development</a></li></Link>
